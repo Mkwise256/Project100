@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 100</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+</head>
+<body>
+    <div class="header">
+    <div class="overlay"></div>
+    <h1>Project 100</h1>
+    <p>Transforming Uganda in the Next 100 Years</p>
+    <div class="header-buttons">
+        <a href="#about" class="btn btn-learn">Learn More</a>
+        <a href="#join" class="btn btn-join">Join Now</a>
+    </div>
+</div>
+
+    <div class="container">
+        <section class="about" id ="about">
+            <h2>About Project 100</h2>
+            <p>Project 100 is an ambitious initiative aimed at transforming Uganda over the next 100 years. Our goal is to foster sustainable development, empower communities, and create a prosperous future for all Ugandans.</p>
+        </section>
+
+        <section class="inspiration">
+            <h2>Inspiration</h2>
+            <p>The inspiration behind Project 100 comes from the vision of a better future for Uganda. We are motivated by the wisdom and determination of great leaders who have inspired change across the world.</p>
+            <blockquote>"The best way to find yourself is to lose yourself in the service of others." - Mahatma Gandhi</blockquote>
+            <blockquote>"The time is always right to do what is right." - Martin Luther King Jr.</blockquote>
+        </section>
+
+        <section class="join" id="join">
+            <h2>Join Us</h2>
+            <p>Be a part of this revolutionary journey. Help us make a lasting impact. Fill out the form below to join Project 100.</p>
+            <form id="contact-form" action="https://formspree.io/f/xnnavnza" method="POST">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input id="phone" type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea id="interests" name="interests" placeholder="Tell us about your interests" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project 100. All rights reserved.</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
